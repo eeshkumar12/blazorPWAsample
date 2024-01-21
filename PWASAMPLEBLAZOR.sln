@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWASAMPLEBLAZOR", "PWASAMPLEBLAZOR\PWASAMPLEBLAZOR.csproj", "{028DD856-EDF4-4841-8924-71C946097D17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibraryDependency", "deps\RazorClassLibraryDependency\RazorClassLibraryDependency.csproj", "{2D978152-00A1-4634-A38A-6965472DDB8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{028DD856-EDF4-4841-8924-71C946097D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{028DD856-EDF4-4841-8924-71C946097D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{028DD856-EDF4-4841-8924-71C946097D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D978152-00A1-4634-A38A-6965472DDB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D978152-00A1-4634-A38A-6965472DDB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D978152-00A1-4634-A38A-6965472DDB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D978152-00A1-4634-A38A-6965472DDB8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

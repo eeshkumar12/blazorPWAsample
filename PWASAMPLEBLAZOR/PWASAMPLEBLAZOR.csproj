@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\deps\DateLibrary\DateLibrary.csproj" />
     <ProjectReference Include="..\deps\RazorClassLibraryDependency\RazorClassLibraryDependency.csproj" />
   </ItemGroup>
 

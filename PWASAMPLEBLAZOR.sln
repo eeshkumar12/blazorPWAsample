@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWASAMPLEBLAZOR", "PWASAMPLEBLAZOR\PWASAMPLEBLAZOR.csproj", "{028DD856-EDF4-4841-8924-71C946097D17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWASAMPLEBLAZOR", "PWASAMPLEBLAZOR\PWASAMPLEBLAZOR.csproj", "{028DD856-EDF4-4841-8924-71C946097D17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibraryDependency", "deps\RazorClassLibraryDependency\RazorClassLibraryDependency.csproj", "{2D978152-00A1-4634-A38A-6965472DDB8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibraryDependency", "deps\RazorClassLibraryDependency\RazorClassLibraryDependency.csproj", "{2D978152-00A1-4634-A38A-6965472DDB8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateLibrary", "deps\DateLibrary\DateLibrary.csproj", "{D207E4A4-AEEA-4735-B783-D3010622A5A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2D978152-00A1-4634-A38A-6965472DDB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D978152-00A1-4634-A38A-6965472DDB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D978152-00A1-4634-A38A-6965472DDB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D207E4A4-AEEA-4735-B783-D3010622A5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D207E4A4-AEEA-4735-B783-D3010622A5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D207E4A4-AEEA-4735-B783-D3010622A5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D207E4A4-AEEA-4735-B783-D3010622A5A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

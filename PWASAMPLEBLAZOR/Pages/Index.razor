@@ -8,3 +8,12 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 <RazorClassLibraryDependency.Component1></RazorClassLibraryDependency.Component1>
+
+@foreach(var name in allNames)
+{
+    <p>@name</p>
+}
+
+@code {
+    string[] allNames = new DateLibrary.DataRepository().GetNames();
+}
